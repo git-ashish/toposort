@@ -44,7 +44,7 @@ function toposort(nodes, edges) {
       } while (i)
     }
 
-    sorted[--cursor] = node
+    sorted[cursor--] = node
   }
 }
 
